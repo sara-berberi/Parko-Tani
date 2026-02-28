@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ParkoTani",
+    "slug": "parko-tani",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "scheme": "parko",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b132b"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sberberiiiii.parkotani",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#0b132b"
+      },
+      "package": "com.sberberiiiii.parkotani"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1380d88a-8719-44d5-a2b3-e24ea4034c5c"
+      }
+    }
+  }
+}
